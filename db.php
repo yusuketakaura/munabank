@@ -1,3 +1,4 @@
+<?php
 function dbConnect(){
   $db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
   $db['dbname'] = ltrim($db['path'], '/');
@@ -12,3 +13,4 @@ function dbConnect(){
   $dbh = new PDO($dsn,$user,$password,$options);
   return $dbh;
 }
+?>
