@@ -28,7 +28,6 @@
             <h2>施設一覧</h2>
 
 <?php
-    echo "hello";
     include "db.php";
 try {
     $dbh=dbConnect();
