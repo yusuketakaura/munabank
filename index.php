@@ -40,7 +40,7 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 */
 
-    $sql = 'SELECT code, name, url FROM tbl_shop WHERE type=1';
+    $sql = 'SELECT code, name, url FROM tbl_shop WHERE 1';
     $stmt = $dbh->prepare($sql);
     $stmt->execute();
 
