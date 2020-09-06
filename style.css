@@ -1,4 +1,7 @@
-
+body{
+    width: 100%;
+    background-color: #fffaf0;
+}
 
 header{
     height: auto;
@@ -84,11 +87,6 @@ a {
     display: inline-block;
     border-bottom: 2px solid #3367ff;
  
-}
-
-body{
-    width: 100%;
-    background-color: #fffaf0;
 }
 
 section{
