@@ -1,4 +1,4 @@
 $(function() {
     var height = $("#header").height();
-    $("body").css("margin-top", height + 10);//10pxだけ余裕をもたせる
+    $("body").css("margin-top", height + 100);//10pxだけ余裕をもたせる
 });
