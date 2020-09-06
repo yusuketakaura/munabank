@@ -21,17 +21,20 @@
                 <li><a href="shop/shop_list_6.php" class="btn4">百貨店</a></li>
                 <li><a href="shop/shop_list_7.php" class="btn4">総合スーパーマーケット</a></li>
                 <li><a href="shop/shop_maps.php" class="btn4">Googleマップ</a></li>
-                <li><a href="manager_login/manager_login.html" class="btn4">管理者用</a><br/>
+                <li><a href="manager_login/manager_login.html" class="btn4">管理者用</a><br>
             </ul>
         </header>
         <section>
             <h1>Overview</h1>
             <hr>
-            <h3>MUNABANKは、福岡県宗像市の公共施設及び民間施設を、ジャンル別にまとめたポータルサイトです。</h3>
-            <h4>ジャンルごとにまとめた施設名をクリックすることで、該当の外部リンクに移動することができます。</h4>
-            <h4>Googleマップをクリックすることで、宗像市内の施設の場所を検索することができます。</h4>
-            <h4>管理者としてログインすることで、施設情報の参照や、修正、削除、追加をすることもできます。</h4>
-            <h4>（※もしうまく表示されない場合は、ページを更新することで解決されます。）</h4>
+<?php
+    print '・MUNABANKは、福岡県宗像市の公共施設及び民間施設を、ジャンル別にまとめたポータルサイトです。<br><br>';
+    print '・ジャンルごとにまとめた施設名をクリックすることで、該当の外部リンクに移動することができます。<br><br>';
+    print '・Googleマップをクリックすることで、宗像市内の施設の場所を検索することができます。<br><br>';
+    print '・管理者としてログインすることで、施設情報の参照や、修正、削除、追加をすることもできます。<br><br>';
+    print '（※もしうまく表示されない場合は、ページを更新することで解決されます。）<br>';
+?>
+
         </section>
         <footer>
         </footer>
