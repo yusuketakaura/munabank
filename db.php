@@ -13,4 +13,4 @@ function dbConnect(){
   $dbh = new PDO($dsn,$user,$password,$options);
   return $dbh;
 }
-?>
+
