@@ -5,7 +5,7 @@
         <title>MUNABANK</title>
         <link rel="stylesheet" type="text/css" href="../style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="../sec.js"></script>
+        <script src="sec.js"></script>
     </head>
     <body>
         <header id="header">
