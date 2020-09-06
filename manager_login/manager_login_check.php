@@ -1,5 +1,5 @@
 <?php
-    include "db.php";
+    include "../db.php";
 try {
     $manager_code = $_POST['code'];
     $manager_pass = $_POST['pass'];
