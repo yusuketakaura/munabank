@@ -41,6 +41,7 @@ if (isset($_SESSION['login']) == false) {
             <h2>施設追加</h2>
 
 <?php
+    include "../db.php";
 try {
     $shop_name = $_POST['name'];
     $shop_type = $_POST['type'];
@@ -50,11 +51,7 @@ try {
     $shop_type = htmlspecialchars($shop_type, ENT_QUOTES, 'UTF-8');
     $shop_url = htmlspecialchars($shop_url, ENT_QUOTES, 'UTF-8');
 
-    $dsn = 'mysql:dbname=facility; host=localhost; charset=utf8';
-    $user ='root';
-    $password = '';
-    $dbh = new PDO($dsn, $user, $password);
-    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $dbh=dbConnect();
 
     $sql= 'INSERT INTO tbl_shop(name, type, url) VALUES (?,?,?)';
     $stmt = $dbh->prepare($sql);
