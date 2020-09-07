@@ -65,6 +65,7 @@ try {
 
             施設コード<br>
 <?php print $shop_code; ?>
+
             <br>
             <form method = "post"action = "shop_edit_check.php">
                 <input type="hidden" name="code" value="<?php print $shop_code; ?>"><br>
