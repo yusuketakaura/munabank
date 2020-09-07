@@ -65,10 +65,12 @@ try {
 
             施設コード<br>
 <?php print $shop_code;?>
+
             <br>
             <br>
             施設名<br>
 <?php print $shop_name;?>
+
             <br>
             <br>
             この施設情報を削除してよろしいですか？<br>
