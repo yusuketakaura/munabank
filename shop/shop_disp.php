@@ -66,10 +66,12 @@ try {
 
             施設コード<br>
 <?php print $shop_code;?>
+
             <br>
             <br>
             施設名<br>
 <?php print $shop_name; ?>
+
             <br>
             <br>
             施設種別<br>
@@ -85,6 +87,7 @@ try {
             ＵＲＬ名<br>
 <?php print $shop_url; ?><br>
 <?php print '<a class="link" href="' . $rec['url'] . '" target="_blank">リンクはこちら</a>'?>
+
             <br>
             <br>
             <form>
