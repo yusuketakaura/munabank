@@ -8,10 +8,11 @@
         <script src="../sec.js"></script>
 
         <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-        <script
+        /*<script
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArTcFAtiEVgS4HFPpkc3iw6EiC2EI0PqE&callback=initAutocomplete&libraries=places&v=weekly"
             defer
-        ></script>
+        ></script>*/
+        <script src="http://maps.google.com/maps/api/js?key={AIzaSyArTcFAtiEVgS4HFPpkc3iw6EiC2EI0PqE}&language=ja"></script>
         <style type="text/css">
             /* Always set the map height explicitly to define the size of the div
              * element that contains the map. */
