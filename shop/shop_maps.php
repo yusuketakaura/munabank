@@ -9,7 +9,7 @@
 
         <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
         <script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfcJLUnlwHdmlZVgRjYM8bA3d7Cx0T590&callback=initAutocomplete&libraries=places&v=weekly"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArTcFAtiEVgS4HFPpkc3iw6EiC2EI0PqE&callback=initAutocomplete&libraries=places&v=weekly"
             defer
         ></script>
         <style type="text/css">
